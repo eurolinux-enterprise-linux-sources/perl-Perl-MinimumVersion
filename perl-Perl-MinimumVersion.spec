@@ -1,6 +1,6 @@
 Name:           perl-Perl-MinimumVersion
 Version:        1.32
-Release:        1%{?dist}
+Release:        2%{?dist}
 Summary:        Find a minimum required version of perl for Perl code
 License:        GPL+ or Artistic
 Group:          Development/Libraries
@@ -63,6 +63,9 @@ make test
 %{_mandir}/man3/*
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 1.32-2
+- Mass rebuild 2013-12-27
+
 * Fri Jan 18 2013 Ralf Corsépius - 1.32-1
 - Upstream update.
 - Add BR: perl(PPIx::Regexp).
